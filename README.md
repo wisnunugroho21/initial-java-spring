@@ -1,3 +1,10 @@
+## Install Maven
+You must install Maven first
+
+[Click here to download Maven](https://maven.apache.org/download.cgi)
+
+[Click here to install Maven](https://maven.apache.org/install.html)
+
 ## Usage
 ```cmd
 git clone https://github.com/wisnunugroho21/initial-java-spring.git
