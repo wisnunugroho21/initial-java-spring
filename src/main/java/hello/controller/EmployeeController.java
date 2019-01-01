@@ -22,7 +22,7 @@ public class EmployeeController
     public String index(Model model)
     {
         model.addAttribute("employees", employeeRepository.findAll());
-        return "employee_index";
+        return "employee_index_bootstrap";
     }
 
     @GetMapping("/create")
