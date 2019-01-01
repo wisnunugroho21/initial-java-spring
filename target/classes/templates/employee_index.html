@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
-        <link th:href="@{/css/test.css}" rel="stylesheet"/>
+        <link th:href="@{/css/styling_table.css}" rel="stylesheet"/>        
     </head>
     <body>
-        <table>
+        <button onclick="sortTable()">Sort Table</button>
+        <table id="myTable">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -18,5 +19,7 @@
                 </tr>
             </tbody>
         </table>
+
+        <script th:src="@{/js/sorting_table.js}"></script>
     </body>
 </html>
