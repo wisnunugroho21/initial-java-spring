@@ -21,7 +21,7 @@ spring.datasource.password=<Your Password>
 ```
 
 ## Usage
-Open the project's directory. Then run this command : 
+Go to the project's directory. Then run this command : 
 
 ```cmd
 mvn clean install
