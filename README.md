@@ -10,6 +10,7 @@ This project using MySQL. Make sure you have installed MySQL in your system.
 Create a database first, then configure setting based on your database. 
 
 Open /src/main/resources/application.properties
+
 Then, set the parameter based on your database : 
 
 ```properties
