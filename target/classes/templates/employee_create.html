@@ -4,9 +4,9 @@
 
     </head>
     <body>
-        <h1>Forms</h1>
+        <h1>Create New Employee</h1>
         <form th:action="@{/employee/create}" th:object="${employee}" method="POST">
-            <p>Id : <input type="text" th:field="*{name}" /></p>
+            <p>Name : <input type="text" th:field="*{name}" /></p>
             <p>Role : <input type="text" th:field="*{role}" /></p>
             <input type="submit" value="Submit" />
         </form>

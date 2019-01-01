@@ -1,5 +1,6 @@
 hello\repository\EmployeeRepository.class
 hello\model\Employee.class
+hello\MvcConfig.class
 hello\controller\EmployeeController.class
 hello\model\User.class
 hello\controller\UserController.class
