@@ -15,7 +15,7 @@ Then, set the parameter based on your database :
 
 ```properties
 spring.jpa.hibernate.ddl-auto=create
-spring.datasource.url=jdbc:mysql://localhost:3306/<Your_Database>
+spring.datasource.url=jdbc:mysql://localhost:3306/<Your Database>
 spring.datasource.username=<Your Username>
 spring.datasource.password=<Your Password>
 ```
