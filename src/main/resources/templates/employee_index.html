@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <link th:href="@{/css/test.css}" rel="stylesheet"/>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="el : ${employees}">
+                    <td th:text="${el.name}"></td>
+                    <td th:text="${el.role}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
