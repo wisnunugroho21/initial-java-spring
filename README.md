@@ -1,3 +1,6 @@
+# Welcome to the Initial Java Spring
+This project is the initial file and folder for creating a java spring project
+
 ## Install Maven
 You must install Maven first
 
